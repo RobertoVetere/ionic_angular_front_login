@@ -1,0 +1,7 @@
+{
+  "name": "ionicAppYoutube",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
