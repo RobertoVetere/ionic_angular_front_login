@@ -34,10 +34,10 @@ export class AuthService {
 
   logout(): void {
     this.isLoggedInFlag = false;
-    // Aquí puedes agregar la lógica para cerrar la sesión en el backend si es necesario
   }
 
   isLoggedIn(): boolean {
+    console.log(this.isLoggedInFlag);
     return this.isLoggedInFlag;
   }
 }
