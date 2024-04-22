@@ -7,7 +7,6 @@ export const routes: Routes = [
 		redirectTo: '/login',
 		pathMatch: 'full'
 	},
-  
   {path: 'home', loadComponent: ()=> import('./main/main.page').then(m => m.MainPage),
     canActivate: [AuthGuard]
   },
@@ -20,5 +19,6 @@ export const routes: Routes = [
   {
     path: 'login',
     loadComponent: () => import('./login/login.page').then( m => m.LoginPage)
-  }
+  },
+  
 ];
