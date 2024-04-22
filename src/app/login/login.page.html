@@ -1,0 +1,21 @@
+<ion-content class="ion-padding">
+    <ion-row class="centered-card">
+        <ion-col size="12" size-md="6" size-lg="4">
+            <ion-card>
+                <ion-card-content>
+                    <ion-item>
+                        <ion-label position="floating">Correo electrónico</ion-label>
+                        <ion-input type="email" [(ngModel)]="email"></ion-input>
+                    </ion-item>
+
+                    <ion-item>
+                        <ion-label position="floating">Contraseña</ion-label>
+                        <ion-input type="password" [(ngModel)]="password"></ion-input>
+                    </ion-item>
+
+                    <ion-button expand="block" (click)="login()">Iniciar sesión</ion-button>
+                </ion-card-content>
+            </ion-card>
+        </ion-col>
+    </ion-row>
+</ion-content>

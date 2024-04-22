@@ -7,7 +7,7 @@
     </ion-header>
     <ion-content class="ion-padding">
       <ion-list>
-        <ion-menu-toggle> 
+        <ion-menu-toggle>
           <ion-item [routerLink]="['']">
             <ion-label>
               Home
@@ -20,9 +20,14 @@
           </ion-item>
         </ion-menu-toggle>
       </ion-list>
+      <!-- Botón de Logout -->
+      <ion-item button *ngIf="isLoggedIn()" (click)="logout()">
+        <ion-label>
+          Logout
+        </ion-label>
+      </ion-item>
     </ion-content>
   </ion-menu>
-  
-  
+
   <ion-router-outlet id="main"></ion-router-outlet>
 </ion-app>
