@@ -46,4 +46,4 @@ Esto iniciará el servidor de desarrollo y abrirá la aplicación en tu navegado
 [MIT](https://opensource.org/licenses/MIT)
 
 ## Contacto
-Para cualquier pregunta o comentario, no dudes en ponerte en contacto con [nombre de contacto](mailto:roberto.vetere@gmail.com).
+Para cualquier pregunta o comentario, no dudes en ponerte en contacto con [Roberto Vetere](mailto:roberto.vetere@gmail.com).
